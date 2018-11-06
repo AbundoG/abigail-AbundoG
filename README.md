@@ -21,18 +21,21 @@ For example, the data set 5 2 20 represents 5 + 2 * sqrt(20), which can be simpl
 5 + 2 * sqrt(4 * 5) = 5 + 2 * 2 * sqrt(5) = 5 + 4 * sqrt(5), resulting in the output values 5, 4 and 5.
 For the data set 5 2 -20, the final output is 5 4i 5, with i representing the square root of -1.
 
-Input - Several sets of three integer values, each set on one line. All three integers will be in the range -100...100, but only A
+## Input - 
+Several sets of three integer values, each set on one line. All three integers will be in the range -100...100, but only A
 might be zero. Each set of three integers A, B, and C represents the radical expression A + B * sqrt(C).
 
-Output - Simplify each expression according to the rules listed above, and output the final values of A, B, and C. It is possible
+## Output - 
+Simplify each expression according to the rules listed above, and output the final values of A, B, and C. It is possible
 for any of the final three values to be zero.
-Sample data:
+
+## Sample data:
 5 2 20</br>
 5 2 -20</br>
 0 3 9</br>
 3 4 -25</br>
 0 9 3</br>
-Sample Output:
+## Sample Output:
 5 4 5</br>
 5 4i 5</br>
 9 0 0</br>
